@@ -1,7 +1,7 @@
 # C-H-Downloader
 Scraper to download Cyanide and Happiness comics. 
 
-*Usage:*
+**Usage:**
 ```
 python chdl.py [mode] [year] [month] [day]
 ```
@@ -9,7 +9,7 @@ mode- 1 to download the comic for a specific day, 2 to download comics for an en
 
 Date Format- YYYY MM DD
 
-*Example:*
+**Example:**
 ```
 python chdl.py 1 2016 9 12
 ```
