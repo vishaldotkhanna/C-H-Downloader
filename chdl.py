@@ -4,7 +4,7 @@ import os
 import argparse
 from datetime import datetime
 
-BASE_PATH = '/home/vishal/Downloads'	#Set the download path for your comics here.
+BASE_PATH = os.getcwd()	#Set the download path for your comics here.
 COMIC_PATH = BASE_PATH + '/C&H'	
 comic_exists = False
 months = ['none', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
